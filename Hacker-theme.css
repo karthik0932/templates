@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(19, 19, 19);
+}
+
+
+
+tag-line , .lead
+{
+    color: darkgray;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    color: lawngreen;
+    text-shadow: 0 0 1px rgb(70, 243, 64), 
+    0 0 20px lawngreen;
+}
+
+hr
+{
+
+    border: transparent;
+    border-top: 1px dashed lawngreen;
+}
+
+a
+{
+    color: skyblue;
+    text-shadow: 0 0 1px rgb(70, 243, 64), 
+    0 0 1px rgba(167, 247, 101),
+    0 0 1px #141414, 
+    0 0 11px skyblue, 
+    0 0 25px skyblue;
+}
+a:hover
+{
+    color: skyblue;
+}
+
+.btn-hacker ,button
+{
+    text-shadow: none;
+    color: silver !important;
+    border: black 2px !important;
+    border-radius: 10px !important;
+    background-image: linear-gradient(to bottom, #424647, #1c1d1f) !important; 
+    padding:10px !important;
+}
+
+.btn-hacker:hover ,button:hover
+{
+    background-image: linear-gradient(to bottom, #2b2d2e, #101011) !important;  
+}
+.btn-hacker:focus ,button:focus
+{
+    border: #424647 2px !important;  
+}
+
+p
+{
+    color: white;
+    letter-spacing: 1px;
+}
+
+code
+{
+    color: violet;
+}
+
+pre
+{
+    color: orange;
+    border: orange 1px solid;
+}
+
+li
+{
+color: white;
+}
+
+ul
+{
+    list-style: none;
+}
