@@ -30,8 +30,8 @@ hr
 a
 {
     color: skyblue;
-    text-shadow: 0 0 1px rgb(70, 243, 64), 
-    0 0 1px rgba(167, 247, 101),
+    font-weight: 600;
+    text-shadow:
     0 0 1px #141414, 
     0 0 11px skyblue, 
     0 0 25px skyblue;
@@ -39,6 +39,7 @@ a
 a:hover
 {
     color: skyblue;
+    text-decoration: none;
 }
 
 .btn-hacker ,button
@@ -73,7 +74,9 @@ code
 
 pre
 {
+    padding: 15px;
     color: orange;
+    border-radius: 20px;
     border: orange 1px solid;
 }
 
@@ -85,4 +88,98 @@ color: white;
 ul
 {
     list-style: none;
+}
+
+.glow-in
+{
+    border: transparent !important;
+    box-shadow: 5px -5px 15px green inset;
+    border-radius: 20px;
+    animation: in 8s linear infinite;
+}
+
+@keyframes in
+{
+    12% { box-shadow: 10px 0px 15px green inset; } 
+    24% { box-shadow: 5px 5px 15px green inset; }
+    36% { box-shadow: 0px 10px 15px green inset; }
+    48% {box-shadow: -5px 5px 15px green inset;}
+    60% {box-shadow: -10px -0px 15px green inset;}
+    72% {box-shadow: -5px -5px 15px green inset;}
+    84% {box-shadow:  0px -10px 15px green inset;}
+    100%{box-shadow: 5px -5px 15px green inset;}
+}
+
+.border-transparent
+{
+    border: transparent ;
+    border-radius: 20px;
+}
+
+.glow-out
+{
+    border: transparent !important;
+    box-shadow: 5px -5px 15px green;
+    border-radius: 20px;
+    animation: out 8s linear infinite;
+}
+
+@keyframes out
+{
+    12% { box-shadow: 10px 0px 15px green ; } 
+    24% { box-shadow: 5px 5px 15px green; }
+    36% { box-shadow: 0px 10px 15px green; }
+    48% {box-shadow: -5px 5px 15px green;}
+    60% {box-shadow: -10px -0px 15px green;}
+    72% {box-shadow: -5px -5px 15px green;}
+    84% {box-shadow:  0px -10px 15px green;}
+    100%{box-shadow: 5px -5px 15px green;}
+}
+
+.card-hacker
+{
+    background-color: transparent;
+    /* border: thistle 1px solid; */
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 3%;
+}
+
+.pink
+{
+    color: pink;
+    text-shadow:
+    0 0 1px #141414, 
+    0 0 11px pink, 
+    0 0 25px pink;
+}
+
+.yellow
+{
+    color: yellow;
+    text-shadow:
+    0 0 1px #141414, 
+    0 0 11px yellow, 
+    0 0 25px yellow;
+}
+
+.red
+{
+    color: crimson;
+    text-shadow:
+    0 0 1px #141414, 
+    0 0 11px crimson, 
+    0 0 25px crimson;
+}
+
+.purple
+{
+    color: rgb(174, 0, 255);
+    text-shadow:
+    0 0 1px #141414, 
+    0 0 11px rgba(191, 100, 219, 0.678), 
+    0 0 25px rgba(131, 83, 146, 0.678);
 }

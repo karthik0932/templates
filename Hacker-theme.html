@@ -17,26 +17,38 @@
     <link rel="icon" href="resource/logo.png">
 </head>
 <body>
-    
-<div class="container">
-    <h1>Hacker-theme</h1>
+    <br>
+    <br>
+<div class="container border border-transparent glow-out m-auto mt-3 p-3">
+    <div class="container border border-transparent glow-in p-3">
+
+        <h1>Hacker-theme</h1>
     <p class="lead">
-        This was a try to mimic <a href="https://pages-themes.github.io/hacker/"> Hacker theme for GitHub Pages. </a> 
+        This was a try to mimic <a href="https://pages-themes.github.io/hacker/"> Hacker theme for GitHub Pages </a> 
+    </p>
+    <p class="lead red">
+        I added little more stuff to it. 
     </p>
     <p>
         If u want to use it in your website just include <br> 
-        <code>
-            &lt;link rel="stylesheet" href="https://mrjeevan.ml/templates/Hacker-theme.css"&gt; <br>
-            &lt;script type="text/javascript" src="https://mrjeevan.ml/templates/Hacker-theme.js"&gt;&lt;/script&gt; <br>
-        </code>
-        in your webpage <br>
-
+    </p>
+        
+            <pre class="border-transparent">
+&lt;link rel="stylesheet" href="https://mrjeevan.ml/templates/Hacker-theme.css"&gt;
+&lt;script type="text/javascript" src="https://mrjeevan.ml/templates/Hacker-theme.js"&gt;&lt;/script&gt;
+        </pre>
+    <p>    
+        in your webpage 
+    </p>
         <ul>
             <li>Compatable with bootstrap !</li>
             <li>Bootstrap not mandaory though.</li>
+            <li>Added few more features.</li>
         </ul>
         
     </p>
+
+    </div>
 </div>
 
 
@@ -45,42 +57,166 @@
 <h1>Hacker-theme</h1>
 <tag-line>This can be used as a tag-line or lead paragraph.</tag-line>
 <hr>
-<h1>this is H1</h1>
-<h2>this is H2</h2>
-<h3>this is H3</h3>
-<h4>this is H4</h4>
-<h5>this is H5</h5>
-<h6>this is H6</h6>
-<hr>
-<h4>horizontal rule</h4>
+<!-- <h1>This is H1</h1>
+<h2>This is H2</h2>
+<h3>This is H3</h3>
+<h4>This is H4</h4>
+<h5>This is H5</h5>
+<h6>This is H6</h6>
+<hr> -->
+<h4>Horizontal rule</h4>
 <hr>
 <a href="#"> This is a link </a>
 <hr>
 <button type="button" > html-button </button>
 <a href="#" class="btn btn-hacker"> bootstrap-button </a>
-<p> to use Hacker-theme in bootstrap button use <code> btn-hacker</code></p>
+<p> To use Hacker-theme in bootstrap button use <code> btn-hacker</code></p>
 <hr>
-<h5> code snippets..</h5>
+<h5> Code snippets..</h5>
 <pre>
     &lt;pre&gt;
-        &lt;h5&gt; code snippets..&lt;/h5&gt;
+        &lt;h5&gt; Code snippets..&lt;/h5&gt;
     &lt;pre&gt; 
 </pre>
 <hr>
-<h5> ordered list </h5>
+<h5> Ordered list </h5>
 <ol>
     <li>This is an ordered list</li>
     <li>This is an ordered list</li>
     <li>This is an ordered list</li>
 </ol>
 <hr>
-<h5> unordered list </h5>
+<h5> Unordered list </h5>
 <ul>
     <li>This is an unordered list</li>
     <li>This is an unordered list</li>
     <li>This is an unordered list</li>
 </ul>
 </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col card-hacker glow-out " id="this">
+            <p><h4 class="purple"> Card Heading </h4></p>
+            <p>
+                All elements are inside paragraph and centered.
+            </p>
+            <style>
+                #this
+                {
+                    background-image: url("/resource/hacker.png");
+                    background-attachment: fixed;
+                    background-size: contain;
+                    
+                }
+            </style>
+            <p> Card description or footer </p>
+        </div>
+        <div class="col">
+
+
+        <pre>
+                
+&lt;div class="col card-hacker glow-out " id="this"&gt;
+    
+    &lt;p&gt; &lt;h4 class="purple"&gt; Card Heading &lt;/h4&gt;  &lt;/p&gt;
+        
+        &lt;p&gt;
+            All elements are inside paragraph and centered.
+        &lt;/p&gt;
+
+        &lt;style&gt;
+            #this
+            {
+                    background-image: url("/resource/hacker.png");
+                    background-attachment: fixed;
+                    background-size: contain;
+            }
+        &lt;/style&gt;
+
+    &lt;p&gt; Card description or footer &lt;/p&gt;
+&lt;/div&gt;
+                
+        </pre>
+
+
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <h1>Additional Features...</h1>
+    <div class="row">
+        <div class="col card-hacker glow-out">
+            <p><h4>glow-out</h4></p>
+            <img src="resource/logo.png" alt="">
+            <p>
+                <code>
+
+                    class="glow-out"
+
+                </code>
+            </p>
+        </div>
+        <div class="col card-hacker glow-in">
+            <p><h4>glow-in</h4></p>
+            <img src="resource/logo.png" alt="">
+            <p>
+                <code>class="glow-in"</code>
+            </p>
+        </div>
+        <div class="col card-hacker">
+            <p><h4>border-transparent</h4></p>
+            <img src="resource/logo.png" alt="">
+            <p>
+                <code class="">class="border-transparent"</code>
+            </p>
+            <p>🤪</p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <p class="pink">Paragraph with pink text </p>
+            
+        </div>
+        <div class="col text-center">
+            <pre> &lt;p class="pink"&gt; Paragraph with pink text &lt;/p&gt; </pre>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <a href="" class="yellow"> Link with yellow text </a>
+            
+        </div>
+        <div class="col text-center">
+            <pre> &lt;a href="" class="yellow"&gt; Link with yellow text &lt;/a&gt; </pre>
+        </div>
+        
+        
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <h5 class="red"> H5 with red text</h5>
+            
+        </div>
+        <div class="col text-center">
+            <pre> &lt;h5 class="red"&gt; H5 with red text &lt;/h5&gt; </pre>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col text-center">
+            <p class="lead purple"> lead para + purple flavour </p>
+            
+        </div>
+        <div class="col text-center">
+            <pre>&lt;p class="lead purple"&gt; lead para + purple flavour &lt;/p&gt;</pre>
+        </div>
+    </div>
+   
+</div>
+
 
     <!-- Optional JavaScript -->
     <script type="text/javascript" src="Hacker-theme.js"></script>
