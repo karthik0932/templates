@@ -1,5 +1,5 @@
 var x = document.getElementsByTagName("h1");
-const title = document.getElementsByTagName("title");
+// const title = document.getElementsByTagName("title");
 for(var i=0; i<x.length;i++ ){
     x[i].innerHTML = './ '+x[i].innerHTML;
     // x[i].innerHTML = title[0].innerText + ':$ '+x[i].innerHTML;
