@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soft-ui</title>
+    
+    <!-- CSS only -->
+    <link rel="stylesheet" href="soft.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+<!-- fav-icon -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+<body onload="barcolor('#7199c0');">
+
+    <div class="container-fluid">
+        <div class="head">
+            <h1 class="text-center primary">
+                Neomorphic design
+            </h1>
+        </div>
+    </div>
+
+
+
+    <div class="container my-5">
+
+        <div class="row">
+
+        <div class="col-10 col-md-1 neomorphism vertical p-0 m-0" > 
+            <h3 class="text-center p-auto m-auto">Background</h3> 
+        </div>
+
+        <div class="col">
+            <div class="row">
+                <div class="col-11 col-md-5 neomorphism">
+                    <div class="flex-container">
+                        <span class="radious neomorphism b-orange" onclick="orange()"></span>
+                        <span class="radious neomorphism b-red" onclick="red();"></span>
+                        <span class="radious neomorphism b-green" onclick="green()"></span>
+                    </div>
+                    <div class="flex-container">
+                        <span class="radious neomorphism b-cyan" onclick="cyan()"></span>
+                        <span class="radious neomorphism b-lime" onclick="lime();"></span>
+                        <span class="radious neomorphism b-white" onclick="white()"></span>
+                    </div>
+                </div>
+                <div class="col-11 col-md-5 neomorphism">
+                    <div class="progress-neo neomorphism p-0 ">
+                        <div id="p-red" class="progress-bar-neo bg-danger" role="progressbar" style="from: 90%; to:75%;width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                    <div class="progress-neo neomorphism p-0 ">
+                        <div id="p-green" class="progress-bar-neo bg-success" role="progressbar" style="from: 0%; to:75%;width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="progress-neo neomorphism p-0 ">
+                        <div id="p-blue" class="progress-bar-neo bg-info" role="progressbar" style="from: 0%; to:75%;width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <div class="progress-neo neomorphism p-0 ">
+                        <div id="p-alpha" class="progress-bar-neo bg-light" role="progressbar" style="from: 0%; to:75%;width: 0%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-11 col-md-5 neomorphism">
+                    <div class="fab fa-instagram btn-neo" style="font-size: 40px;"></div>
+                    <div class="fab fa-github btn-neo" style="font-size: 40px;"></div>
+                    <a class="btn btn-neo" onclick="dark()" id="mode"> purple </a>
+                </div>
+                <div class="col-11 col-md-5 neomorphism">
+                    <h4> What is it ?</h4>
+                    <p>
+                        Neumorphic design. The neumorphic effect is a combination of the current famous flat UI and the old skeuomorphic principles! 
+                    </p>
+                </div>
+                
+            </div>
+
+        </div>
+
+
+        </div>
+         
+    </div>
+
+    
+    <div class="container my-5">
+
+        <div class="row">
+
+        <div class="col order-last order-md-first offset-md-1">
+            <div class="row">
+                <div class="col-11 col-md-5 neomorphism">
+                    <h4>Gist</h4>
+                    <p>
+                        The components have a dark box-shadow on the bottom and a light box-shadow on top; the combination of both creates the effect of the elements pushing themselves through your display.
+                    </p>
+                </div>
+                <div class="col-11 col-md-5 neomorphism">
+                    <h4>Resources</h4>
+                    <a href="https://css-tricks.com/neumorphism-and-css/">Css-tricks</a>
+                    <a href="https://www.youtube.com/watch?v=i3Dom2WzjT0">Youtube</a>
+                    <h4>Example</h4>
+                    <a href="https://miro.medium.com/max/1920/1*P25y1ewgaATt1970KxWZXA.png">Image</a>
+                </div>
+                
+            </div>
+
+            <div class="row">
+                <div class="col-11 col-md-5 neomorphism">
+                    <h4> Or get one ! </h4>
+                    <a href="https://neumorphism.io/#5376f3">neumorphism.io</a>
+                    <a href="https://neumorphic.design/">neumorphic.design</a>
+                </div>
+                <div class="col-11 col-md-5 neomorphism">
+                    <h4> other </h4>
+                    <a href="https://uxplanet.org/the-ground-breaking-possibilities-with-neumorphism-9ed9e64c2513"> Possibilities with Neumorphism</a>
+                    <a href="https://news.cheapdeveloper.com/webmaster/articles/310-neumorphism-in-website-design-pros-and-cons.html">Neumorphism in website design: pros and cons</a>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="col-10 col-md-1 neomorphism vertical p-0 m-0 order-first order-md-last" > 
+            <h3 class="text-center p-auto m-auto ">Details</h3> 
+        </div>
+
+        </div>
+         
+    </div>
+
+    
+<footer>
+
+    <div class="container-fluid ">
+        
+        <h2 class="text-center primary"> -_- </h2>
+
+    </div>
+</footer>
+
+
+<!-- js -->
+<script src="neo.js"></script>
+<!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</body>
+</html>
