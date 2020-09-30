@@ -1,14 +1,11 @@
-function dark()
-{
+function dark(){
     btn = document.getElementById("mode");
     $(":root").css("--main-color", "#c071c06b");
     $("#mode").attr("onclick","light();");
     btn.innerHTML = 'blue'
     barcolor('#c071c0')
-    
 }
-function light()
-{
+function light(){
     btn = document.getElementById("mode");
     $(":root").css("--main-color", "#7199c06b");
     $("#mode").attr("onclick","dark();");
@@ -48,12 +45,10 @@ function hexToRgb(hex) {
       b: parseInt(result[3], 16)
     } : null;
   }
-function barcolor(x)
-{
+function barcolor(x){
     var r = hexToRgb(x).r
     var g = hexToRgb(x).g
     var b = hexToRgb(x).b
-    console.log(r,g,b)
     $('#p-red').attr('style','width:'+(r/225)*100+'%')
     $('#p-green').attr('style','width:'+(g/225)*100+'%')
     $('#p-blue').attr('style','width:'+(b/225)*100+'%')
